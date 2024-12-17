@@ -75,7 +75,12 @@ THREE_BY_THREE = (3, 3)
 def identity(
     x: Any
 ) -> Any:
-    """ identity function """
+    """ identity function   
+    EXP:
+    ```
+    This function returns the input.
+    ```
+    """
     return x
 
 

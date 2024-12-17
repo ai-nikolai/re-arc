@@ -15,7 +15,6 @@ import generators
 import verifiers
 
 
-
 def get_generators() -> dict:
     """
     returns mapper from task identifiers (keys) to example generator functions
@@ -73,7 +72,7 @@ def demo_generator(key, n=6):
     
 
 def generate_dataset(
-    path: str = 're_arc',
+    path: str = 're_arc_new',
     seed: int = 42,
     n_examples: int = 1000,
     diff_lb: float = 0,
@@ -202,3 +201,6 @@ def evaluate_verifiers_on_original_tasks() -> None:
     print(f'verification programs work for all examples for {n-k}/{n} tasks')
     print(f'verification fails (on one example) for tasks {failed_on}')
 
+
+if __name__=="__main__":
+    demo_generator('00d62c1b')

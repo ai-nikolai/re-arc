@@ -3,6 +3,15 @@ from dsl import *
 
 
 def verify_007bbfb7(I: Grid) -> Grid:
+    """
+    HL:
+    ```
+    ```
+
+    LL:
+    ```
+    ```
+    """
     x0 = palette(I)
     x1 = other(x0, ZERO)
     x2 = shape(I)

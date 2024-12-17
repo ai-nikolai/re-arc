@@ -1,0 +1,6 @@
+arc_original/
+re_arc/
+__MACOSX
+__pycache__
+.DS_Store
+env_*
